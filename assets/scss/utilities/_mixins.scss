@@ -1,0 +1,10 @@
+
+ @mixin responsive{
+    @media (max-width: 687px){
+        @content;
+    } 
+}
+
+
+
+

@@ -1,0 +1,29 @@
+// UTILITIES
+@import 'utilities/_normalize.scss';
+@import 'utilities/_variables.scss';
+@import 'utilities/_mixins.scss';
+
+// PAGES
+@import 'pages/_home.scss';
+@import 'pages/_paslaugos.scss';
+// LAYOUT
+@import 'layout/_header.scss';
+@import 'layout/_footer.scss';
+
+// COMPONENTS
+@import 'components/_card.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=MuseoModerno:wght@100;300;400;500;600;700;800;900&family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+
+* {
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+body {
+	background-color: rgb(109, 49, 109);
+}
+
+
+
